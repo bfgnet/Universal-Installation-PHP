@@ -32,7 +32,7 @@ How to use
 ----------
 
 Puede personalizar su script de instalación editando el archivo <b>setting.xml</b>
-<code>
+<pre>
 &lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;install&gt;
     &lt;title&gt;Universal Installation PHP&lt;/title&gt;
@@ -70,5 +70,6 @@ Puede personalizar su script de instalación editando el archivo <b>setting.xml<
         &lt;prefix&gt;uiphp&lt;/prefix&gt;
     &lt;/values&gt;
 &lt;/install&gt;
-</code>
+</pre>
+Todas las consultas SQL que se vayan ejecutar se guardarán en un archivo dentro de la carpeta <b>source/</b>
 
