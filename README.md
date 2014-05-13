@@ -3,13 +3,13 @@ Universal-Installation-PHP
 
 Universal Installation PHP is the ultimate tool to install PHP scripts in languages ​​Multiple blocks, a secilla and elegant.
 
-![Alt text](images/screenshot1.png)
+![Alt Universal Installation PHP 1](images/screenshot1.png)
 
-![Alt text](images/screenshot2.png)
+![Alt Universal Installation PHP 2](images/screenshot2.png)
 
-![Alt text](images/screenshot3.png)
+![Alt Universal Installation PHP 3](images/screenshot3.png)
 
-![Alt text](images/screenshot4.png)
+![Alt Universal Installation PHP 4](images/screenshot4.png)
 
 Installation
 ------------
@@ -31,5 +31,44 @@ Features
 How to use
 ----------
 
-
+Puede personalizar su script de instalación editando el archivo <b>setting.xml</b>
+<code>
+<?xml version="1.0" encoding="UTF-8"?>
+<install>
+    <title>Universal Installation PHP</title>
+    <copyright>Universal Installation PHP - 2014 - Basilio Fajardo Gálvez</copyright>
+    <source>data.sql</source>
+    <requires>
+        <version>5.1.2</version>
+        <extension name="curl" />
+        <extension name="gd" />
+        <extension name="mbstring" />
+        <extension name="mcrypt" />
+        <extension name="simplexml" />
+        <extension name="zip" />
+        <extension name="json" />
+    </requires>
+    <languages>
+        <default>es</default>
+        <language id="es">
+            <choose title="Idioma">
+                <option value="es">Español</option>
+                <option value="en">Inglés</option>
+            </choose>
+        </language>
+        <language id="en">
+            <choose title="Language">
+                <option value="es">Spanish</option>
+                <option value="en">English</option>
+            </choose>
+        </language>
+    </languages>
+    <values>
+        <host>localhost</host>
+        <database></database>
+        <username></username>
+        <prefix>uiphp</prefix>
+    </values>
+</install>
+</code>
 
