@@ -33,42 +33,42 @@ How to use
 
 Puede personalizar su script de instalación editando el archivo <b>setting.xml</b>
 <code>
-<?xml version="1.0" encoding="UTF-8"?>
-<install>
-    <title>Universal Installation PHP</title>
-    <copyright>Universal Installation PHP - 2014 - Basilio Fajardo Gálvez</copyright>
-    <source>data.sql</source>
-    <requires>
-        <version>5.1.2</version>
-        <extension name="curl" />
-        <extension name="gd" />
-        <extension name="mbstring" />
-        <extension name="mcrypt" />
-        <extension name="simplexml" />
-        <extension name="zip" />
-        <extension name="json" />
-    </requires>
-    <languages>
-        <default>es</default>
-        <language id="es">
-            <choose title="Idioma">
-                <option value="es">Español</option>
-                <option value="en">Inglés</option>
-            </choose>
-        </language>
-        <language id="en">
-            <choose title="Language">
-                <option value="es">Spanish</option>
-                <option value="en">English</option>
-            </choose>
-        </language>
-    </languages>
-    <values>
-        <host>localhost</host>
-        <database></database>
-        <username></username>
-        <prefix>uiphp</prefix>
-    </values>
-</install>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;install&gt;
+    &lt;title&gt;Universal Installation PHP&lt;/title&gt;
+    &lt;copyright&gt;Universal Installation PHP - 2014 - Basilio Fajardo Gálvez&lt;/copyright&gt;
+    &lt;source&gt;data.sql&lt;/source&gt;
+    &lt;requires&gt;
+        &lt;version&gt;5.1.2&lt;/version&gt;
+        &lt;extension name="curl" /&gt;
+        &lt;extension name="gd" /&gt;
+        &lt;extension name="mbstring" /&gt;
+        &lt;extension name="mcrypt" /&gt;
+        &lt;extension name="simplexml" /&gt;
+        &lt;extension name="zip" /&gt;
+        &lt;extension name="json" /&gt;
+    &lt;/requires&gt;
+    &lt;languages&gt;
+        &lt;default&gt;es&lt;/default&gt;
+        &lt;language id="es"&gt;
+            &lt;choose title="Idioma"&gt;
+                &lt;option value="es"&gt;Español&lt;/option&gt;
+                &lt;option value="en"&gt;Inglés&lt;/option&gt;
+            &lt;/choose&gt;
+        &lt;/language&gt;
+        &lt;language id="en"&gt;
+            &lt;choose title="Language"&gt;
+                &lt;option value="es"&gt;Spanish&lt;/option&gt;
+                &lt;option value="en"&gt;English&lt;/option&gt;
+            &lt;/choose&gt;
+        &lt;/language&gt;
+    &lt;/languages&gt;
+    &lt;values&gt;
+        &lt;host&gt;localhost&lt;/host&gt;
+        &lt;database&gt;&lt;/database&gt;
+        &lt;username&gt;&lt;/username&gt;
+        &lt;prefix&gt;uiphp&lt;/prefix&gt;
+    &lt;/values&gt;
+&lt;/install&gt;
 </code>
 
