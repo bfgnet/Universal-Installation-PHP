@@ -31,7 +31,7 @@ Features
 How to use
 ----------
 
-Puede personalizar su script de instalación editando el archivo <b>setting.xml</b>
+You can customize your installation by editing the script file <b>setting.xml</b>
 <pre>
 &lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;install&gt;
@@ -71,5 +71,6 @@ Puede personalizar su script de instalación editando el archivo <b>setting.xml<
     &lt;/values&gt;
 &lt;/install&gt;
 </pre>
-Todas las consultas SQL que se vayan ejecutar se guardarán en un archivo dentro de la carpeta <b>source/</b>
+
+All SQL queries that will be run are stored in a file in the folder <b>source/</b>
 
